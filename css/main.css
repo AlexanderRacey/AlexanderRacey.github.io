@@ -1,9 +1,9 @@
-a {
+a{
     text-decoration: none;
     color: #999;
 }
 
-a:hover {
+a:hover{
     text-decoration: underline;
 }
 
@@ -20,26 +20,36 @@ body {
     width: 50%;
 }
 
-div{
-    display: block;
-}
-
-/* Add a gray background color and some padding to the footer */
-footer {
+footer{
     background-color: #f2f2f2;
     padding: 25px;
 }
 
-h1 {
+h1{
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+.heading{
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
 
+hr.solid{
+    border-top: 3px solid #bbb;
+}
 
-/* 
-    --Navigation Bar--
-*/
+html{
+    scroll-behavior: smooth;
+}
+
+.overlay{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
 
 .navbar{
     margin-bottom: 0;
@@ -54,16 +64,6 @@ h1 {
     line-height: 20px;
 }
 
-.navbar-nav{
-    float: right;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: none;
-}
-
-
 nav ul, footer ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -71,24 +71,28 @@ nav ul, footer ul{
     font-weight: bold;
 }
 
-nav ul li, footer ul li {
+nav ul li, footer ul li{
     display: inline;
     margin-right: 20px;
 }
 
-p {
+p{
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
 
-/*
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
 
-ul.posts li {
-    list-style: none;
-}
+
+/*
+    --Media Queries--
 */
+@media screen and (max-height: 450px){
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
