@@ -60,6 +60,7 @@ html{
     background: #002A32;
     margin-bottom: 0;
     border-radius: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar-brand{
@@ -85,10 +86,19 @@ nav ul li, footer ul li{
 .navbar-inverse .navbar-nav>.active>a{
     background-color: #002A32;
 }
+
 .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: #002A32;
 }
+
 .navbar-inverse .navbar-nav>.active>a:focus{
+    background-color: #002A32;
+}
+
+.navbar-inverse .navbar-toggle{
+    border-color: #002A32;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #002A32;
 }
 
