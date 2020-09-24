@@ -13,7 +13,7 @@ a:active{
 }
 
 body{
-    background-color: #23395B;
+    background-color: #E5E7E6;
     font-family: 'Inconsolata';
     width: 100%;
 }
@@ -24,7 +24,7 @@ body{
 }
 
 footer{
-    background-color: #f2f2f2;
+    background-color: #002A32;
     padding: 25px;
 }
 
@@ -37,23 +37,19 @@ h1{
 .heading{
     position: relative;
     display: inline-block;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 300;
     margin: 0 0 30px 0;
-    color: rgb(255, 255, 255);
+    color: #070600;
 }
 
 hr.solid{
     border-top: 3px solid #bbb;
+    margin-top: -25px;
 }
 
 html{
     scroll-behavior: smooth;
-}
-
-.overlay{
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
 }
 
 .navbar{
@@ -71,6 +67,10 @@ html{
     line-height: 20px;
 }
 
+.navbar-inverse .navbar-brand {
+    color: #C5FFFD;
+}
+
 nav ul, footer ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -85,6 +85,7 @@ nav ul li, footer ul li{
 
 .navbar-inverse .navbar-nav>.active>a{
     background-color: #002A32;
+    color: #9d9d9d;
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover {
@@ -105,7 +106,7 @@ nav ul li, footer ul li{
 p{
     font-size: 1.5em;
     line-height: 1.4em;
-    color: rgb(255, 255, 255);
+    color: #070600;
 }
 
 
