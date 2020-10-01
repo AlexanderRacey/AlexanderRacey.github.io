@@ -1,6 +1,6 @@
 a{
     text-decoration: none;
-    color: #999;
+    color: #979dac;
     font-family: 'Inconsolata';
 }
 
@@ -24,7 +24,7 @@ body{
 }
 
 footer{
-    background-color: #002A32;
+    background-color: #001845;
     padding: 25px;
 }
 
@@ -53,7 +53,7 @@ html{
 }
 
 .navbar{
-    background: #002A32;
+    background: #001845;
     margin-bottom: 0;
     border-radius: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -84,23 +84,23 @@ nav ul li, footer ul li{
 }
 
 .navbar-inverse .navbar-nav>.active>a{
-    background-color: #002A32;
+    background-color: #001845;
     color: #9d9d9d;
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover {
-    background-color: #002A32;
+    background-color: #001845;
 }
 
 .navbar-inverse .navbar-nav>.active>a:focus{
-    background-color: #002A32;
+    background-color: #001845;
 }
 
 .navbar-inverse .navbar-toggle{
-    border-color: #002A32;
+    border-color: #001845;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
-    background-color: #002A32;
+    background-color: #001845;
 }
 
 p{
@@ -121,6 +121,11 @@ p{
     color: #070600;
 }
 
+#particles-js{
+    margin-top: 50px;
+    background: #001233;
+    height: 500px;
+}
 
 
 
