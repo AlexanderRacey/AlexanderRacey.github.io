@@ -1,6 +1,6 @@
 a{
     text-decoration: none;
-    color: #979dac;
+    color: #FFFFFF;
     font-family: 'Inconsolata';
 }
 
@@ -12,8 +12,13 @@ a:active{
     background-color: #333;
 }
 
+#about{
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+/* Main body of site */
 body{
-    background-color: #E5E7E6;
+    background-color: #121212;
     font-family: 'Inconsolata';
     width: 100%;
 }
@@ -23,9 +28,8 @@ body{
     width: 50%;
 }
 
-footer{
-    background-color: #001845;
-    padding: 25px;
+#footerLinks{
+    padding-bottom: 40px;
 }
 
 h1{
@@ -40,7 +44,7 @@ h1{
     font-size: 2.5em;
     font-weight: 300;
     margin: 0 0 30px 0;
-    color: #070600;
+    color: #FFFFFF;
 }
 
 hr.solid{
@@ -103,10 +107,11 @@ nav ul li, footer ul li{
     background-color: #001845;
 }
 
+/* Paragraph text */
 p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
-    color: #070600;
+    color: #FFFFFF;
 }
 
 .panel.panel-default{
