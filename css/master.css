@@ -8,14 +8,6 @@ a:hover{
     text-decoration: underline;
 }
 
-a:active{
-    background-color: #333;
-}
-
-#about{
-    background-color: rgba(255, 255, 255, 0.16);
-}
-
 /* Main body of site */
 body{
     background-color: #121212;
@@ -33,7 +25,7 @@ body{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 6em;
     font-family: 'Inconsolata';
     font-weight: bold;
 }
@@ -56,8 +48,18 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Overwrite jumbotron */
+.jumbotron{
+    background-color: #121212;
+    height: 100vh;
+}
+
+.jumbotron .h1, .jumbotron h1{
+    color: #BB86FC;
+}
+
 .navbar{
-    background: #001845;
+    background: rgba(0, 0, 0, 0.8);
     margin-bottom: 0;
     border-radius: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -72,7 +74,7 @@ html{
 }
 
 .navbar-inverse .navbar-brand {
-    color: #C5FFFD;
+    color: #BB86FC;
 }
 
 nav ul, footer ul{
@@ -88,50 +90,54 @@ nav ul li, footer ul li{
 }
 
 .navbar-inverse .navbar-nav>.active>a{
-    background-color: #001845;
-    color: #9d9d9d;
+    background: none;
+    color: #BB86FC;
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: none;
+}
+
+/*.navbar-inverse .navbar-nav>.active>a:focus{
     background-color: #001845;
 }
 
-.navbar-inverse .navbar-nav>.active>a:focus{
-    background-color: #001845;
-}
-
-.navbar-inverse .navbar-toggle{
+/*.navbar-inverse .navbar-toggle{
     border-color: #001845;
 }
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+/*.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
     background-color: #001845;
-}
+}*/
 
 /* Paragraph text */
 p{
     font-size: 1.2em;
     line-height: 1.4em;
     color: #FFFFFF;
+    text-align: left;
 }
 
 .panel.panel-default{
     border-radius: 0px;
-    box-shadow: 0px 0px 10px #888;
-    border-color: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.16);
+    padding: 10px 20px;
 }
 
 .panel-body{
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #070600;
+    color: #FFFFFF;
 }
 
-#particles-js{
-    margin-top: 50px;
-    background: #001233;
-    height: 500px;
+/* Vertically align items */
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
 }
-
 
 
 /*
