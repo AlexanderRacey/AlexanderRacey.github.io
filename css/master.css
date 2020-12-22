@@ -8,10 +8,10 @@ a:hover{
 
 /* Overwrite link colours */
 #aOverride{
-    color: #018786;
+    color: #03DAC6;
 }
 #aOverride:hover{
-    color: #03DAC6;
+    color: #018786;
 }
 
 /* Main body of site */
@@ -31,7 +31,6 @@ body{
 }
 
 h1{
-    font-size: 6em;
     font-family: 'Inconsolata';
     font-weight: bold;
 }
@@ -61,7 +60,7 @@ html{
 }
 .jumbotron .h1, .jumbotron h1{
     color: #BB86FC;
-    font-size: 5em;
+    font-size: 4.5em;
 }
 
 .navbar{
