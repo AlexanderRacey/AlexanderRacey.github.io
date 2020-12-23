@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
 a{
     text-decoration: none;
     font-family: 'Inconsolata';
@@ -24,6 +29,12 @@ body{
 .center{
     margin: auto;
     width: 50%;
+}
+
+/* Footer */
+footer{
+    background-color: #000000;
+    padding: 25px;
 }
 
 #footerLinks{
@@ -56,7 +67,7 @@ html{
 /* Link icons */
 #iconGitHub{
     width: 100%;
-    max-width: 20px;
+    max-width: 19.5px;
     height: auto;
 }
 #iconLinkedIn{
@@ -93,27 +104,34 @@ html{
     font-size: 18px;
     line-height: 20px;
 }
-.navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand{
     color: #BB86FC;
 }
-.navbar-inverse .navbar-brand:hover {
+.navbar-inverse .navbar-brand:hover{
     color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav>.active>a{
     background: none;
     color: #BB86FC;
 }
-.navbar-inverse .navbar-nav>.active>a:hover {
+.navbar-inverse .navbar-nav>.active>a:hover{
     background-color: none;
 }
 /*.navbar-inverse .navbar-nav>.active>a:focus{
     background-color: #001845;
+}*/
+.navbar-inverse .navbar-toggle{
+    border-color: #BB86FC;;
+    padding: 9px 10px;
+    margin-right: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
-/*.navbar-inverse .navbar-toggle{
-    border-color: #001845;
-}
-/*.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+*/.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
     background-color: #001845;
+}
+.navbar-toggle{
+    
 }*/
 
 nav ul, footer ul{
@@ -153,7 +171,8 @@ p{
     background: #03DAC6;
     list-style: none;
     white-space: nowrap;
-    margin-right: 15px;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
     border-radius: 25px;
     display: inline-block;
     padding: 10px;
@@ -188,6 +207,10 @@ p{
     opacity: 1;
     max-width: 150px;
     transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
+}
+
+.ul{
+    padding-inline-start: none;
 }
 
 /* Vertically align items */
