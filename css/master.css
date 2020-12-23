@@ -63,6 +63,13 @@ html{
     font-size: 4.5em;
 }
 
+/* Link icons */
+#linkIcons{
+    width: 100%;
+    max-width: 57px;
+    height: auto;
+}
+
 /* Responsive social links */
 #socialLinks{
     overflow: hidden;
@@ -72,6 +79,7 @@ html{
     margin-right: 10px;
     border-radius: 25px;
     display: inline-block;
+    padding: 10px;
 }
 #socialLinks a{
     opacity: 0;
@@ -88,7 +96,6 @@ html{
     float:right;
     display: block;
     padding-right: 1em;
-    font:1em/1 'rokkitt', sans-serif;
 }
 #socialLinks b {
     color: #c33;
@@ -97,7 +104,9 @@ html{
     display: inline-block;
     padding:.125em .375em;
 }
-#socialLinks:hover {}
+#socialLinks:hover{
+    background: #018786;
+}
 #socialLinks:hover a{
     opacity: 1;
     max-width: 150px;
