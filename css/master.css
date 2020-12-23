@@ -53,6 +53,23 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Link icons */
+#iconGitHub{
+    width: 100%;
+    max-width: 20px;
+    height: auto;
+}
+#iconLinkedIn{
+    width: 100%;
+    max-width: 20px;
+    height: auto;
+}
+#iconEmail{
+    width: 100%;
+    max-width: 20px;
+    height: auto;
+}
+
 /* Overwrite jumbotron */
 .jumbotron{
     background-color: #121212;
@@ -61,56 +78,6 @@ html{
 .jumbotron .h1, .jumbotron h1{
     color: #BB86FC;
     font-size: 4.5em;
-}
-
-/* Link icons */
-#linkIcons{
-    width: 100%;
-    max-width: 57px;
-    height: auto;
-}
-
-/* Responsive social links */
-#socialLinks{
-    overflow: hidden;
-    background: #03DAC6;
-    list-style: none;
-    white-space:nowrap;
-    margin-right: 10px;
-    border-radius: 25px;
-    display: inline-block;
-    padding: 10px;
-}
-#socialLinks a{
-    opacity: 0;
-    color: #666;
-    max-width: 0;
-    display: inline-block;
-    text-decoration: none;
-    transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color;
-}
-#socialLinks a:hover{
-     color: #c33;
-}
-#socialLinks a i{
-    float:right;
-    display: block;
-    padding-right: 1em;
-}
-#socialLinks b {
-    color: #c33;
-    line-height:1;
-    font-size: 25px;
-    display: inline-block;
-    padding:.125em .375em;
-}
-#socialLinks:hover{
-    background: #018786;
-}
-#socialLinks:hover a{
-    opacity: 1;
-    max-width: 150px;
-    transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
 }
 
 .navbar{
@@ -178,6 +145,49 @@ p{
     font-size: 1.5em;
     line-height: 1.4em;
     color: #FFFFFF;
+}
+
+/* Responsive social links */
+#socialLinks{
+    overflow: hidden;
+    background: #03DAC6;
+    list-style: none;
+    white-space: nowrap;
+    margin-right: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px;
+}
+#socialLinks a{
+    opacity: 0;
+    color: #666;
+    max-width: 0;
+    display: inline-block;
+    text-decoration: none;
+    transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color;
+}
+#socialLinks a:hover{
+     color: #c33;
+}
+#socialLinks a i{
+    float: right;
+    display: block;
+    padding-right: 1em;
+}
+#socialLinks b {
+    color: #c33;
+    line-height: 1;
+    font-size: 25px;
+    display: inline-block;
+    padding:.125em .375em;
+}
+#socialLinks:hover{
+    background: #018786;
+}
+#socialLinks:hover a{
+    opacity: 1;
+    max-width: 150px;
+    transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
 }
 
 /* Vertically align items */
