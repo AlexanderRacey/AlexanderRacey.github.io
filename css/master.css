@@ -31,14 +31,24 @@ body{
     width: 50%;
 }
 
+/* Education font sizes */
+#educationAward{
+    font-size: 1.5em;
+}
+#educationYear{
+    font-size: 0.9em;
+}
+
 /* Footer */
 footer{
     background-color: #000000;
     padding: 25px;
 }
-
 #footerLinks{
     padding-bottom: 40px;
+}
+#footerText{
+    color: #BB86FC;
 }
 
 h1{
