@@ -91,6 +91,17 @@ html{
     height: auto;
 }
 
+.icon-bar{
+    background: #BB86FC;
+}
+
+#imgSelfie{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
 /* Overwrite jumbotron */
 .jumbotron{
     background-color: #121212;
@@ -191,6 +202,7 @@ p{
     display: inline-block;
     text-decoration: none;
     transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color;
+    font-size: 1em;
 }
 #socialLinks a:hover{
     color: #FFFFFF;
@@ -209,16 +221,12 @@ p{
     transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
 }
 
-.icon-bar{
-    background: #BB86FC;
-}
-
 .ul{
     padding-inline-start: none;
 }
 
 /* Vertically align items */
-.vertical-center {
+.vertical-center{
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one :-)       */
     display: flex;
