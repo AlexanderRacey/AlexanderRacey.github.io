@@ -24,6 +24,23 @@ a:hover{
     color: #018786;
 }
 
+/* Project buttons */
+.btn.btn-primary{
+    color: #000000;
+    background-color: #03DAC6;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.2em;
+    transition: 0.2s;
+}
+.btn.btn-primary:hover{
+    color: #FFFFFF;
+    background-color: #018786;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 2px;
+}
+
 /* Main body of site */
 body{
     background-color: #121212;
