@@ -17,7 +17,7 @@
         <!--Page Loader-->
         <div id="loader"></div>
         <!--Page Content-->
-        <div style="display: none;" id="myDiv" class="animate-bottom">
+        <div style="display: none;" id="siteContent" class="animate-bottom">
             <!-- Navigation Bar -->
             <nav class="navbar navbar-inverse navbar-fixed-top overlay">
                 <div class="container-fluid">
@@ -333,16 +333,15 @@
                 </ul>
             </footer>
         </div>
+        <!--Page Loader Script-->
         <script>
             var myVar;
-            
-            function myFunction() {
+            function myFunction(){
               myVar = setTimeout(showPage, 3000);
             }
-            
-            function showPage() {
+            function showPage(){
               document.getElementById("loader").style.display = "none";
-              document.getElementById("myDiv").style.display = "block";
+              document.getElementById("siteContent").style.display = "block";
             }
         </script>
         <!-- Optional JavaScript -->
