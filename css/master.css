@@ -26,16 +26,16 @@ a:hover{
 
 /* Project buttons */
 .btn.btn-primary{
-    color: #000000;
-    background-color: #03DAC6;
+    color: #FFFFFF;
+    background-color: #BB86FC;
     border: none;
     border-radius: 2px;
     font-size: 1.2em;
     transition: 0.2s;
 }
 .btn.btn-primary:hover{
-    color: #FFFFFF;
-    background-color: #018786;
+    color: #000000;
+    background-color: #FFFFFF;
     border: none;
     font-size: 1.2em;
     border-radius: 2px;
@@ -250,6 +250,15 @@ p{
     font-size: 1.5em;
     line-height: 1.4em;
     color: #FFFFFF;
+}
+
+#projectTitle{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #000000;
+    background: #03DAC6;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 /* Responsive social links */
