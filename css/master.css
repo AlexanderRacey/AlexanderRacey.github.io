@@ -26,7 +26,7 @@ a:hover{
 
 /* Project buttons */
 .btn.btn-primary{
-    color: #FFFFFF;
+    color: #000000;
     background-color: #BB86FC;
     border: none;
     border-radius: 2px;
@@ -117,6 +117,10 @@ html{
     background: #BB86FC;
 }
 
+#imgProject{
+    width: 100%;
+    height: auto;
+}
 #imgSelfie{
     width: 100%;
     max-width: 200px;
@@ -253,12 +257,13 @@ p{
 }
 
 #projectTitle{
-    font-size: 1.6em;
+    font-size: 1.6em; 
     font-weight: bold;
     color: #000000;
     background: #03DAC6;
     padding: 10px;
     border-radius: 25px;
+    text-align: center;
 }
 
 /* Responsive social links */
