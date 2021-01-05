@@ -266,6 +266,24 @@ p{
     text-align: center;
 }
 
+#skillsList li{
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #000000;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 25px;
+}
+#skillLang{
+    background: #BB86FC;
+}
+#skillSoft{
+    background: #03DAC6;
+}
+
 /* Responsive social links */
 #socialLinks{
     overflow: hidden;
