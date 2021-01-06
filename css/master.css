@@ -73,6 +73,14 @@ footer{
     color: #BB86FC;
 }
 
+/* Make content grow on hover */
+.grow{
+    transition: all .2s ease-in-out; 
+}
+.grow:hover{
+    transform: scale(1.1);
+}
+
 h1{
     font-family: 'Inconsolata';
     font-weight: bold;
@@ -270,7 +278,7 @@ p{
     color: #000000;
     background: #03DAC6;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -283,7 +291,7 @@ p{
     cursor: default;
     font-size: 1.2em;
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 #skillLang{
     background: #BB86FC;
