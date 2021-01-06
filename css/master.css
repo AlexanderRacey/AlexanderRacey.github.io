@@ -27,15 +27,15 @@ a:hover{
 /* Project buttons */
 .btn.btn-primary{
     color: #000000;
-    background-color: #BB86FC;
+    background-color: #03DAC6;
     border: none;
     border-radius: 2px;
     font-size: 1.2em;
     transition: 0.2s;
 }
 .btn.btn-primary:hover{
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #018786;
     border: none;
     font-size: 1.2em;
     border-radius: 2px;
@@ -292,7 +292,7 @@ p{
     font-size: 1.6em; 
     font-weight: bold;
     color: #000000;
-    background: #03DAC6;
+    background: #BB86FC;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
