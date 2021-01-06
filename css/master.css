@@ -57,6 +57,15 @@ body{
 #educationAward{
     font-size: 1.5em;
 }
+#educationTitle{
+    font-size: 1.4em; 
+    font-weight: bold;
+    color: #000000;
+    background: #BB86FC;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
 #educationYear{
     font-size: 0.9em;
 }
@@ -199,6 +208,13 @@ html{
 #siteContent{
     display: none;
     text-align: center;
+}
+
+#moduleList dt{
+    color: #FFFFFF;
+    font-weight: normal;
+    text-align: left;
+    font-size: 1.2em;
 }
 
 .navbar{
