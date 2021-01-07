@@ -32,6 +32,8 @@ a:hover{
     border-radius: 2px;
     font-size: 1.2em;
     transition: 0.2s;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .btn.btn-primary:hover{
     color: #FFFFFF;
@@ -51,6 +53,16 @@ body{
 .center{
     margin: auto;
     width: 50%;
+}
+
+#contactText{
+    font-size: 1.2em; 
+    font-weight: bold;
+    color: #000000;
+    background: #BB86FC;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* Education font sizes */
@@ -280,7 +292,7 @@ p{
     border-radius: 10px;
     border: none;
     background-color: rgba(255, 255, 255, 0.16);
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 .panel-body{
     font-size: 1.5em;
@@ -295,6 +307,7 @@ p{
     background: #BB86FC;
     padding: 10px;
     border-radius: 10px;
+    border: none;
     text-align: center;
 }
 
