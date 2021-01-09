@@ -43,7 +43,6 @@ a:hover{
     border-radius: 2px;
 }
 
-/* Main body of site */
 body{
     background-color: #121212;
     font-family: 'Inconsolata';
@@ -53,6 +52,19 @@ body{
 .center{
     margin: auto;
     width: 50%;
+}
+
+#contactList li{
+    background: #03DAC6;
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #000000;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 #contactText{
