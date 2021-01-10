@@ -54,17 +54,16 @@ body{
     width: 50%;
 }
 
-.contactLinks a{
+#contactLinks{
     background: #03DAC6;
     display: inline-block;
-    margin: 14px;
-    padding: 15px 30px;
-    color: #000000;
-    list-style: none;
-    cursor: default;
-    font-size: 1.2em;
-    font-weight: bold;
-    border-radius: 10px;
+    border-radius: 50%;
+    width:  200px;
+    height: 200px;
+    object-fit: scale-down;
+}
+#contactLinks:hover{
+    background: #018786;
 }
 
 #contactText{
@@ -157,16 +156,31 @@ html{
     width: 100%;
     max-width: 80px;
     height: auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-40px;
 }
 #iconLinkedInLarge{
     width: 100%;
     max-width: 80px;
     height: auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-45px;
+    margin-left:-35px;
 }
 #iconEmailLarge{
     width: 100%;
     max-width: 80px;
     height: auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-35px;
+    margin-left:-40px;
 }
 
 .icon-bar{
